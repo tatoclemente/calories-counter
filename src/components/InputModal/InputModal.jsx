@@ -2,11 +2,11 @@ import { Input } from "@rneui/themed"
 import { StyleSheet, Text } from "react-native"
 import { View } from "react-native"
 
-const InputModal = ({ unitType }) => {
+const InputModal = ({ unitType, value, seter }) => {
     return (
         <View style={styles.formItem}>
             <View style={styles.inputContainer}>
-                <Input />
+                <Input value={value} onChangeText={(text) => seter(text)} />
             </View>
             <View style={styles.legendContainer}>
                 <Text style={styles.legend}>{unitType}</Text>
