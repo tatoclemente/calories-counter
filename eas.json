@@ -9,8 +9,7 @@
     },
     "preview": {
       "ios": {
-        "simulator": true,
-        "distribution": "internal"
+        "simulator": true
       },
       "android": {
         "buildType": "apk"

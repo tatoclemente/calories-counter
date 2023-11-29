@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "appcalorias",
-    "slug": "appcalorias",
+    "name": "App Calorias",
+    "slug": "app-calorias",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,14 +21,15 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tatoclemente23.appcalorias"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "98404ca4-92f2-4f6f-8c0f-5c429147834f"
+        "projectId": "305ad082-1184-4cf9-8928-28a235b68a73"
       }
     }
   }

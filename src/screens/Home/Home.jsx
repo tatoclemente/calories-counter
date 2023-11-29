@@ -19,10 +19,11 @@ const Home = () => {
 
     const calculateTodayStadistic = (meals) => {
         try {
-            const caloriesConsumed = meals.reduce(
+            const caloriesConsumed = meals?.reduce(
                 (acc, meal) => acc + Number(meal.calories),
                 0,
-            )
+            ) 
+
             const remainingCalories = totalCaloriesPerDay - caloriesConsumed;
             const percentage = (caloriesConsumed / totalCaloriesPerDay) * 100;
             setTodayStadistics({
